@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Week 6 Assignment - JavaScript Events and Basic Interactivity">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling Example -->
+  <button id="toggleMessageBtn">Click Me</button>
+  <p id="message" style="display:none;">Hello! This is my week 6 Assignment.</p>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode</h2>
+    <button id="themeToggle">Toggle Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+    <p>Counter: <span id="counter">0</span></p>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name"></label>
+      <p class="error" id="nameError"></p>
+
+      <label>Email: <input type="text" id="email"></label>
+      <p class="error" id="emailError"></p>
+
+      <label>Password: <input type="password" id="password"></label>
+      <p class="error" id="passwordError"></p>
+
+      <button type="submit">Submit</button>
+      <p id="successMsg"></p>
+    </form>
+  </section>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

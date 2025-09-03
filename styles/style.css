@@ -1,0 +1,42 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+  text-align: center;
+  justify-content: center;
+}
+
+.dark-mode {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #e40707;
+}
+
+.success {
+  color: green;
+  font-size: 15px;
+}
